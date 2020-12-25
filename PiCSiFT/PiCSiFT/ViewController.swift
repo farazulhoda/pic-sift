@@ -9,9 +9,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var filteredImage: UIImage?
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    
+    @IBOutlet var imageToggle: UIButton!
+    
+    
+    @IBAction func onImageToggle(_ sender: UIButton) {
+        if imageToggle.isSelected {
+            let image = UIImage(named: "sample")!
+            imageView.image = image
+            imageToggle.isSelected = false
+        } else {
+        imageView.image = filteredImage
+        imageToggle.isSelected = true
+        }
+        
+        }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        imageToggle.setTitle("Show Before Image", for: .selected)
+        
         let image = UIImage(named: "sample")!
         
         let rgbaImage = RGBAImage(image: image)!
@@ -35,8 +57,7 @@ class ViewController: UIViewController {
                 rgbaImage.pixels[index] = pixel
             }
         }
-        let result = rgbaImage.toUIImage()
-        
+        filteredImage = rgbaImage.toUIImage()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
