@@ -6,8 +6,7 @@ An iOS image filter Application.
 
 ![Screenshot 2021-01-23 at 03 34 44](https://user-images.githubusercontent.com/42433776/105553835-2d9adc80-5d2c-11eb-8d18-9d4c77377ca0.png)
 ![Screenshot 2021-01-23 at 03 34 53](https://user-images.githubusercontent.com/42433776/105553842-32f82700-5d2c-11eb-9e99-da0daffc1d11.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-01-23 at 03 35 01](https://user-images.githubusercontent.com/42433776/105553845-34295400-5d2c-11eb-8403-0c2219f6558b.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-01-23 at 03 35 35](https://user-images.githubusercontent.com/42433776/105553846-35f31780-5d2c-11eb-943d-58079463c2f3.png)
+
 ********************************
 
 # Requirements
