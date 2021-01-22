@@ -1,5 +1,5 @@
 
-# pic-sift
+# PiCSiFT
 
 An iOS image filter Application. 
 ********************************
