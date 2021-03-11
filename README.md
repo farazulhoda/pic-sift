@@ -13,7 +13,9 @@ An iOS image filter Application.
 # Requirements
 
 >> iOS 14.0+
+
 >> Xcode 12.0+
+
 >> Swift 4.2, Swift 5
 
 # Usage
